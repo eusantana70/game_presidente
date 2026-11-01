@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Salvamentos do jogo
+backend/data/save.json
+
+# Logs
+backend/server.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/

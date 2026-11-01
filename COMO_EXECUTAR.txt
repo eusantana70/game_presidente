@@ -1,0 +1,38 @@
+================================================================================
+  PRESIDENTE DO BRASIL - COMO EXECUTAR O JOGO
+================================================================================
+
+IMPORTANTE: Voce NAO deve abrir o arquivo index.html diretamente (duplo clique).
+O jogo precisa de um servidor rodando para funcionar.
+
+PASSO A PASSO:
+
+1. Abra o Terminal do Windows (PowerShell ou CMD)
+
+2. Navegue ate a pasta do backend:
+   cd "C:\Users\Vinicius\Desktop\Game Politica\backend"
+
+3. Inicie o servidor:
+   npm start
+
+   Voce deve ver a mensagem: "Backend rodando em http://localhost:3001"
+
+4. ABRA SEU NAVEGADOR (Chrome, Edge, Firefox ou Opera)
+
+5. Digite na barra de enderecos:
+   http://localhost:3001
+
+6. O jogo carregara. Crie seu candidato e comece a jogar!
+
+================================================================================
+  SE O SERVIDOR PARAR:
+================================================================================
+   Rode novamente: npm start (dentro da pasta backend)
+
+================================================================================
+  NAO ABRA DIRETAMENTE:
+================================================================================
+   NAO duplo-clique em: frontend/index.html
+   Isso NAO vai funcionar porque o jogo precisa da API do backend.
+
+================================================================================
